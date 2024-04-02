@@ -21,6 +21,7 @@ Plug('ryanoasis/vim-devicons')
 Plug('tpope/vim-surround')
 Plug('tc50cal/vim-terminal')
 Plug('vimwiki/vimwiki')
+Plug('vim-scripts/java_getset.vim')
 
 vim.call('plug#end')
 
