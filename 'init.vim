@@ -23,7 +23,6 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 
 set nocompatible
-filetype plugin on
 syntax on
 
 :set number
