@@ -30,6 +30,7 @@ vim.cmd [[
 
 
 	set nocompatible
+	let maplocalleader = ','
 	filetype plugin on
 	syntax on
 
@@ -48,6 +49,9 @@ vim.cmd [[
 	nnoremap <C-n> :NERDTree<CR>
 	nnoremap <C-t> :NERDTreeToggle<CR>
 	nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+	nnoremap <C-v> "+p<CR>
+	nnoremap <C-c> "+y<CR>
+	nnoremap <C-b> :InsertBothGetterSetter<CR>
 ]]
 
 
