@@ -39,6 +39,7 @@ vim.cmd [[
 	:set smarttab
 	:set softtabstop=4
 	:set mouse=a
+
 	let g:vimwiki_list = [{'path': '~/Documents/Vaults/Bitto Vault', 'syntax': 'markdown', 'ext': '.md'}]
 
 
