@@ -1,4 +1,4 @@
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter.config'.setup {
   -- A list of parser names, or "all" (the listed parsers MUST always be installed)
   ensure_installed = { "qmljs", "haxe", "java", "javascript", "php", "cpp", "rust", "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline" },
 
@@ -22,6 +22,7 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 
+--[[
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.haxe = {
   install_info = {
@@ -31,4 +32,4 @@ parser_config.haxe = {
     branch = "main",
   },
   filetype = "haxe",
-}
+} ]]
